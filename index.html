@@ -29,8 +29,13 @@
         },
       };
     </script>
+    <style>
+      .manrope {
+        font-family:Manrope;
+      }
+    </style>
   </head>
-  <body>
+  <body class="manrope">
     <!-- main content -->
     <main class="md:max-w-screen-xl md:mx-auto px-2 md:px-16 lg:px-20">
       <header class="md:flex gap-6 pt-10 mb-20">
@@ -43,7 +48,7 @@
             Your Taste Buds.
           </p>
           <button
-            class="bg-gradient-to-r from-orange-300 via-red-400 to-red-500 p-2 md:px-5 md:py-3 rounded-lg text-white font-bold hover:border-"
+            class="bg-gradient-to-r from-orange-300 via-red-400 to-red-500 p-2 md:px-5 md:py-3 rounded-lg text-white font-bold"
           >
             Explore More
             <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
@@ -251,8 +256,65 @@
         <section>
         </section>
     </main>
-    <footer>
-      
+    <footer class="bg-orange-200 text-[#777777] py-10 px-4 md:px-16">
+        <div class="mx-auto">
+          <!-- logo -->
+           <div class="mb-8 flex justify-between">
+            <img class="mb-8 " src="images/cup.png" alt="">
+            <div class="flex items-center gap-2">
+              <h4>Ready to get strated?</h4>
+              <button class="bg-gradient-to-r from-orange-300 via-red-400 to-red-500 p-2 md:px-5 md:py-3 rounded-lg text-white font-bold">Get Started</button>
+           </div>
+           </div>
+           <!-- link -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <!-- first column -->
+               <div>
+                <h3 class="font-semibold text-lg mb-3 text-black">Quick Links</h3>
+                <ul class="space-y-2">
+                  <li class="hover:text-orange-500"><a href="#">Home</a></li>
+                  <li class="hover:text-orange-500"><a href="#">About us</a></li>
+                  <li class="hover:text-orange-500"><a href="#">Insurance</a></li>
+                  <li class="hover:text-orange-500"><a href="#">Privacy Policy</a></li>
+                </ul>
+                
+               </div>
+              <!-- 2nd column -->
+               <div>
+                <h3 class="font-semibold text-lg mb-3 text-black">Our Service</h3>
+                <ul class="space-y-2">
+                  <li class="hover:text-orange-500"><a href="#">Life Insurance</a></li>
+                  <li class="hover:text-orange-500"><a href="#">Car Insurance</a></li>
+                  <li class="hover:text-orange-500"><a href="#">Health Insurance</a></li>
+                  <li class="hover:text-orange-500"><a href="#">House Insurance</a></li>
+                </ul>
+               </div>
+              <!-- 3rd column -->
+               <div>
+                <h3 class="font-semibold text-lg mb-3 text-black">Help</h3>
+                <ul class="space-y-2">
+                  <li class="hover:text-orange-500"><a href="#">FAQs</a></li>
+                  <li class="hover:text-orange-500"><a href="#">Contact Us</a></li>
+                </ul>
+               </div>
+              <!-- 4th column -->
+               <div>
+                <h3 class="font-semibold text-lg mb-3 text-black">Subscribe to our newsletter</h3>
+                <div class="flex flex-col space-y-2">
+                  <div class="mb-5">
+                    <input class="outline-none bg-transparent border-b-2 border-[#777777] border-spacing-10 w-4/6 " placeholder="Email address" type="text">
+                    <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-500 inline-flex text-white rounded-full justify-center items-center cursor-pointer "></i>
+                  </div>
+                  <div class="flex mt-8 mb-2 space-x-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+        </div>
     </footer>
   </body>
 </html>
